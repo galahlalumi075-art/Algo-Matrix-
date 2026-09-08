@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock - Multiple Time Zones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Global Time Zones</h1>
+        
+        <div class="clocks-grid">
+            <div class="clock-card">
+                <h2>New York</h2>
+                <p class="timezone">EST/EDT (UTC-5/-4)</p>
+                <div class="digital-clock" id="clock-newyork">00:00:00</div>
+            </div>
+
+            <div class="clock-card">
+                <h2>London</h2>
+                <p class="timezone">GMT/BST (UTC+0/+1)</p>
+                <div class="digital-clock" id="clock-london">00:00:00</div>
+            </div>
+
+            <div class="clock-card">
+                <h2>Tokyo</h2>
+                <p class="timezone">JST (UTC+9)</p>
+                <div class="digital-clock" id="clock-tokyo">00:00:00</div>
+            </div>
+
+            <div class="clock-card">
+                <h2>Sydney</h2>
+                <p class="timezone">AEDT/AEST (UTC+10/+11)</p>
+                <div class="digital-clock" id="clock-sydney">00:00:00</div>
+            </div>
+
+            <div class="clock-card">
+                <h2>Dubai</h2>
+                <p class="timezone">GST (UTC+4)</p>
+                <div class="digital-clock" id="clock-dubai">00:00:00</div>
+            </div>
+
+            <div class="clock-card">
+                <h2>São Paulo</h2>
+                <p class="timezone">BRT/BRST (UTC-3/-2)</p>
+                <div class="digital-clock" id="clock-saopaulo">00:00:00</div>
+            </div>
+
+            <div class="clock-card">
+                <h2>Moscow</h2>
+                <p class="timezone">MSK (UTC+3)</p>
+                <div class="digital-clock" id="clock-moscow">00:00:00</div>
+            </div>
+
+            <div class="clock-card">
+                <h2>Singapore</h2>
+                <p class="timezone">SGT (UTC+8)</p>
+                <div class="digital-clock" id="clock-singapore">00:00:00</div>
+            </div>
+        </div>
+
+        <div class="info">
+            <p>Local Time: <span id="local-time">00:00:00</span></p>
+            <p id="date-info"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
